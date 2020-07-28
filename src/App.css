@@ -3,3 +3,16 @@ body {
         sans-serif;
     font-weight: 300;
 }
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #000;
+
+    transition: all .2s;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
